@@ -30,6 +30,7 @@ public class Calculator {
 		else if(operatorType.equals("-")) {	
 			System.out.println("Enter first nuumber");
 			String firstNumber = scnObj.next();
+			
 			System.out.println("Enter second nuumber");
 			String secondNumber = scnObj.next();
 			
@@ -45,6 +46,7 @@ public class Calculator {
 		else if(operatorType.equals("/")) {	
 			System.out.println("Enter first nuumber");
 			String firstNumber = scnObj.next();
+			
 			System.out.println("Enter second nuumber");
 			String secondNumber = scnObj.next();
 			
@@ -61,6 +63,7 @@ public class Calculator {
 		else if(operatorType.equals("*")) {		
 			System.out.println("Enter first nuumber");
 			String firstNumber = scnObj.next();
+			
 			System.out.println("Enter second nuumber");
 			String secondNumber = scnObj.next();
 			
