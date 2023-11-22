@@ -3,22 +3,21 @@ public class MultiplicationTable {
 
 	public static void main(String[] args) {
 //		Counting from 50 to 55		
-		for(int i = 50; i<= 55; i++)
-		{
+		for (int i = 50; i <= 55; i++) {
 			System.out.println(i);
 		}
-//		Multiplication table
-		int n = 1;
-		for(int multipleTable = 1; multipleTable <= 15;multipleTable++ )
-		{
-			System.out.println(" ------------------ Multiplication table of " + multipleTable + " is below. ------------------");
-			for(int i = 1; i<=10; i++) 
-			{			
-				int result = i * n;
-				System.out.println(n + " * " + i + " = " + result);
+//		Multiplication table from 1 to 15
+		int startNum = 1;
+		int endNum = 15;
+		for (int multipleTable = startNum; multipleTable <= endNum; multipleTable++) {
+			System.out.println(
+					" ------------------ Multiplication table of " + multipleTable + " is below. ------------------");
+			for (int i = 1; i <= 10; i++) {
+				int result = i * startNum;
+				System.out.println(startNum + " * " + i + " = " + result);
 			}
-			n++;
-			
+			startNum++;
+
 		}
 
 	}
