@@ -4,7 +4,7 @@ public class CheckPrimeUsingLoop {
 	public static void main(String[] args) {
 		CheckPrimeUsingLoop objCheckPrimeUsingLoop = new CheckPrimeUsingLoop();
 		objCheckPrimeUsingLoop.CheckPrimeorNot(55);
-		objCheckPrimeUsingLoop.CheckPrimeinRange(700, 701);
+		objCheckPrimeUsingLoop.CheckPrimeinRange(700, 7000);
 	}
 
 	// Check prime for single digit and prints result for both positive and negative
@@ -12,7 +12,7 @@ public class CheckPrimeUsingLoop {
 	public void CheckPrimeorNot(int number) {
 		Boolean ifPrime = true;
 		for (int i = 2; i < number; i++) {
-			if (number / i == 0) {
+			if (number % i == 0) {
 				ifPrime = false;
 				System.out.println(number + " is not a prime number.");
 			}
